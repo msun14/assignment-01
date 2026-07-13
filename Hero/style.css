@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Inter',sans-serif;
+    background:#fff;
+}
+
+
+
+/* Hero Section */
+
+.hero{
+
+    position:relative;
+
+    width:100%;
+    height:670px;
+
+    background-image:url("images/banner.jpg");
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    overflow:hidden;
+
+}
+
+/* Dark Overlay */
+
+.hero-overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    background:rgba(0,0,0,.48);
+
+}
+
+/* Content */
+
+.hero-content{
+
+    position:relative;
+    z-index:2;
+
+    width:100%;
+    max-width:760px;
+
+    text-align:center;
+
+    color:#ffffff;
+
+}
+
+/* Heading */
+
+.hero-content h1{
+
+    font-family:"Inter",sans-serif;
+
+    font-size:72px;
+
+    font-weight:800;
+
+    line-height:1.08;
+
+    letter-spacing:-2px;
+
+}
+
+.hero-content h1 span{
+
+    font-style:italic;
+
+}
+
+/* Paragraph */
+
+.hero-content p{
+
+    max-width:620px;
+
+    margin:24px auto 42px;
+
+    font-size:22px;
+
+    font-weight:400;
+
+    line-height:1.55;
+
+    color:rgba(255,255,255,.88);
+
+}
+
+/* Button */
+
+.hero-btn{
+
+    display:inline-flex;
+
+    justify-content:center;
+    align-items:center;
+
+    width:145px;
+    height:52px;
+
+    background:#2F5BFF;
+
+    border-radius:8px;
+
+    color:#ffffff;
+
+    text-decoration:none;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.hero-btn:hover{
+
+    background:#2149E5;
+
+}
+
